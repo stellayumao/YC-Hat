@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans');
+/*
+color scheme:
+#4F5D75
+#2D3242
+#FBFBF2
+#EF8354
+#D8D5D5
+#EEEEEE
+#D1D1D1
+#F06449
+*/
+body{
+	line-height: 1.4;
+}
+.wrapper{
+	margin: 0 2rem 0 2rem;
+}
+
+/*header css*/
+.brand-img{
+	width: 3rem;
+}
+@media screen and (min-width: 576px) {
+	.brand-img{
+		width: 4.5rem;
+	}
+}
+@media screen and (min-width: 768px) {
+	.brand-img{
+		width: 6rem;
+	}
+}
+.bg-light {
+    background-color: #EEEEEE!important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	color: #F06449;
+}
+.navbar-light .navbar-nav .nav-link{
+	font-size: 1rem;
+	color: #2D3242;
+}
+.dropdown-menu{
+	background-color: #EEEEEE;
+	border: none;
+}
+.dropdown-item{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2D3242;
+}
+
+
+/*main css*/
+
+/*masthead part css*/
+.container-fluid{
+	text-align: center;
+}
+.masthead{
+	background-color: #4F5D75;
+}
+h1{
+	font-size: 2rem;
+	color: #FBFBF2;
+	padding-top: 1rem;
+	font-family: 'Cardo', serif;
+}
+.shop{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1rem;
+	color: #FBFBF2;
+	background-color: #EF8354;
+	border: none;
+	padding: 0.3rem 0.8rem 0.2rem 0.8rem;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}
+.masthead p{
+	text-align: left;
+	margin: auto;
+	max-width: 15rem;
+	font-size: 0.75rem;
+	color: #FBFBF2;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.masthead-image{
+	width: 15rem;
+}
+@media screen and (min-width: 768px) {
+	h1{
+		font-size: 3rem;
+		padding-top: 1.5rem;
+	}
+	.shop{
+		font-size: 1.5rem;
+		padding: 0.5rem 1.2rem 0.3rem 1.2rem;
+		margin-top: 0.75rem;
+		margin-bottom: 1.5rem;
+	}
+	.masthead-image{
+		width: 22.5rem;
+	}
+	.masthead p{
+		max-width: 22.5rem;
+		font-size: 1rem;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+}
+@media screen and (min-width: 992px){
+	h1{
+		font-size: 2.8rem;
+		padding-top: 2.5rem;
+	}
+	.shop{
+		font-size: 1.2rem;
+		padding: 0.5rem 1.2rem 0.25rem 1.2rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.masthead-image{
+		width: 18rem;
+	}
+	.masthead p{
+		font-size: 1rem;
+		min-width: 12rem;
+		padding-top: 7rem;
+	}
+}
+
+/*product part css*/
+h2{
+	font-family: 'Cardo', serif;
+	text-align: left;
+	font-size: 2rem;
+	padding-top: 1.5rem;
+	padding-bottom: 0.5rem;
+}
+figure img{
+	width: 100%;
+}
+.hat{
+	margin-bottom: 2rem; 
+	padding: 2rem 2rem 0.5rem 2rem;
+	border: 1px solid #D8D5D5;
+}
+figcaption ul{
+	margin-top: 1.5rem;
+}
+figcaption ul li{
+	font-size: 0.75rem;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+@media screen and (min-width: 768px){
+	figcaption ul li{
+		font-size: 1rem;
+	}
+	h2{
+		font-size: 2.5rem;
+	}
+}
+
+
+/*footer css*/
+.footer{
+	background-color: #EEEEEE;
+}
+.footer-brand{
+	margin: auto;
+	width: 30%;
+	max-width: 10rem;
+	padding: 1rem;
+}
+h3{
+	color: #2D3242;
+	font-size: 1rem;
+	padding-top: 1rem;
+	font-family: 'Josefin Sans', sans-serif;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #2D3242;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 0.75rem;
+}
+h4{
+	padding-top: 1.5rem;
+	font-size: 2rem;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2D3242;
+}
+.join p{
+	padding-top: 0.1rem;
+	padding-bottom: 0.2rem;
+	font-size: 1rem;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2D3242;
+}
+.signup{
+	color: #FBFBF2;
+	background-color: #EF8354;
+	border: none;
+	padding: 0.3rem 0.8rem 0.2rem 0.8rem;
+	margin-bottom: 1.5rem;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 0.75rem;
+}
+.social-media ul{
+	margin-bottom: 1.5rem;
+}
+.social-media ul li{
+	display: inline;
+	border-right: 1px solid #D8D5D5;
+	padding: 0.3rem;
+}
+.social-media ul li:nth-child(4){
+	border: none;
+}
+footer p{
+	padding-top: 1rem;
+	padding-bottom: 0.2rem;
+	font-size: 0.75rem;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2D3242;
+}
+
+@media screen and (min-width: 768px){
+	h3{
+		font-size: 1.3rem;
+		padding-top: 1.5rem;
+	}
+	footer ul li a{
+		font-size: 1rem;
+	}
+	h4{
+		font-size: 2.6rem;
+		padding-top: 1.8rem;
+	}
+	.join p{
+		font-size: 1.3rem;
+	}
+	.signup{
+		font-size: 1rem;
+		margin-bottom: 1.8rem;
+	}
+	footer p{
+		font-size: 1rem;
+	}
+	.social-media ul{
+	margin-bottom: 1.8rem;
+	}
+	
+}
+
+@media screen and (min-width: 992px){
+	h3{
+		padding-top: 5rem;
+	}
+	footer ul{
+		margin-bottom: 3rem;
+	}
+	h4{
+		padding-top: 6rem;
+	}
+	.social-media ul li{
+		display: block;
+		border-right: none;
+		margin-bottom: -0.5rem;
+	}
+	.footer-brand{
+		position: relative;
+		top: 5rem;
+	}
+	footer{
+		margin-top: -4rem;
+	}
+}
